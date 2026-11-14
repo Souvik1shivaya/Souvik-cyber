@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ <meta name="theme-color" content="#080b16">
+ <meta name="description" content="Souvik Hazra's personal portfolio showcasing frontend development, responsive web design and creative projects.">
+ <meta name="author" content="Souvik Hazra">
+ <title>Souvik Hazra | Frontend Developer</title>
+
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+ <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+ <a class="skip-link" href="#main-content">Skip to content</a>
+
+ <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+ <div class="background-effects" aria-hidden="true">
+ <div class="orb orb-one"></div>
+ <div class="orb orb-two"></div>
+ <div class="orb orb-three"></div>
+ <div class="background-grid"></div>
+ <div class="background-vignette"></div>
+ </div>
+
+ <!-- NAVIGATION -->
+ <header class="navbar glass">
+ <a href="#home" class="logo" aria-label="Souvik Hazra home">
+ S<span>H</span><i>.</i>
+ </a>
+
+ <nav class="navigation" id="navigation" aria-label="Main navigation">
+ <a href="#home">Home</a>
+ <a href="#about">About</a>
+ <a href="#skills">Skills</a>
+ <a href="#projects">Projects</a>
+ <a href="#contact">Contact</a>
+ </nav>
+
+ <a href="#contact" class="nav-cta">
+ Let's Talk <span aria-hidden="true">↗</span>
+ </a>
+
+ <button
+ class="menu-toggle"
+ id="menuToggle"
+ type="button"
+ aria-label="Open navigation"
+ aria-controls="navigation"
+ aria-expanded="false"
+ hidden
+ >☰</button>
+ </header>
+
+ <main id="main-content">
+
+ <!-- HERO -->
+ <section class="hero container" id="home">
+ <div class="hero-content">
+ <div class="availability glass">
+ <span class="status-dot" aria-hidden="true"></span>
+ <span>WELCOME TO MY DIGITAL WORLD</span>
+ </div>
+
+ <p class="eyebrow">HELLO THERE, I'M</p>
+
+ <h1>
+ Souvik<br>
+ <span class="gradient-text">Hazra.</span>
+ </h1>
+
+ <div class="role-line">
+ <span class="role-mark" aria-hidden="true"></span>
+ <h2>
+ <span id="typedRole">Frontend Developer</span>
+ <span class="typing-cursor" aria-hidden="true">|</span>
+ </h2>
+ </div>
+
+ <p class="hero-description">
+ I turn creative ideas into modern digital experiences.
+ I build responsive websites with clean layouts, elegant
+ details and beautiful user interfaces.
+ </p>
+
+ <div class="hero-actions">
+ <a href="#projects" class="button button-primary">
+ Explore My Work <span aria-hidden="true">↘</span>
+ </a>
+
+ <a href="#contact" class="button button-glass">
+ Contact Me <span aria-hidden="true">↗</span>
+ </a>
+ </div>
+
+ <div class="tech-row" aria-label="Technologies">
+ <span>HTML5</span>
+ <span>CSS3</span>
+ <span>WEB DESIGN</span>
+ </div>
+
+ <div class="hero-proof">
+ <span class="proof-line" aria-hidden="true"></span>
+ <span>CREATIVITY · CONSISTENCY · CURIOSITY</span>
+ </div>
+ </div>
+
+ <div class="hero-visual">
+ <div class="visual-glow" aria-hidden="true"></div>
+ <div class="visual-ring ring-one" aria-hidden="true"></div>
+ <div class="visual-ring ring-two" aria-hidden="true"></div>
+
+ <div class="profile-card glass">
+ <div class="profile-top">
+ <span class="micro-label">PERSONAL PROFILE</span>
+ <span class="live-status"><i></i> ONLINE</span>
+ </div>
+
+ <div class="photo-frame">
+ <img
+ src="souvik.jpg"
+ alt="Portrait of Souvik Hazra"
+ class="profile-photo"
+ fetchpriority="high"
+ decoding="async"
+ width="600"
+ height="700"
+ >
+
+ <div class="photo-shade" aria-hidden="true"></div>
+
+ <div class="photo-caption">
+ <span>CREATIVE MIND</span>
+ <span>01 / 01</span>
+ </div>
+ </div>
+
+ <div class="profile-bottom">
+ <div>
+ <h3>Souvik Hazra</h3>
+ <p>Building the web, one idea at a time.</p>
+ </div>
+
+ <a href="#about" class="round-arrow" aria-label="Learn about me">
+ ↗
+ </a>
+ </div>
+ </div>
+
+ <div class="floating-badge badge-code glass">
+ <span class="badge-symbol" aria-hidden="true">&lt;/&gt;</span>
+ <div>
+ <strong>Clean Code</strong>
+ <small>Simple. Modern. Fast.</small>
+ </div>
+ </div>
+
+ <div class="floating-badge badge-glass glass">
+ <span class="badge-symbol sparkle" aria-hidden="true">✦</span>
+ <div>
+ <strong>Liquid Glass</strong>
+ <small>Next-level aesthetics</small>
+ </div>
+ </div>
+ </div>
+ </section>
+
+ <!-- MOVING TEXT -->
+ <div class="marquee glass" aria-label="Creative web development">
+ <div class="marquee-track" aria-hidden="true">
+ <span>CREATIVE DEVELOPMENT ✳</span>
+ <span>MODERN WEB DESIGN ✳</span>
+ <span>LIQUID GLASS UI ✳</span>
+ <span>RESPONSIVE LAYOUTS ✳</span>
+ <span>CREATIVE DEVELOPMENT ✳</span>
+ <span>MODERN WEB DESIGN ✳</span>
+ <span>LIQUID GLASS UI ✳</span>
+ <span>RESPONSIVE LAYOUTS ✳</span>
+ </div>
+ </div>
+
+ <!-- ABOUT -->
+ <section class="section container" id="about">
+ <div class="section-heading reveal">
+ <p class="section-kicker">01 — ABOUT ME</p>
+ <h2>
+ Not just a website.<br>
+ <span class="gradient-text">An experience.</span>
+ </h2>
+ </div>
+
+ <div class="about-card glass reveal">
+ <div class="about-icon" aria-hidden="true">✳</div>
+
+ <div class="about-content">
+ <h3>Turning imagination into digital reality.</h3>
+
+ <p>
+ I'm Souvik Hazra, a creative learner passionate about
+ frontend development and modern web design. I enjoy
+ building responsive interfaces, exploring glassmorphism
+ and improving my coding skills through practical projects.
+ My goal is to create websites that look great and feel
+ intuitive on every screen.
+ </p>
+
+ <a href="#contact" class="inline-link">
+ Let's work together <span aria-hidden="true">↗</span>
+ </a>
+ </div>
+
+ <div class="about-decoration" aria-hidden="true">SH.</div>
+ </div>
+ </section>
+
+ <!-- SKILLS -->
+ <section class="section container" id="skills">
+ <div class="section-heading reveal">
+ <p class="section-kicker">02 — MY TOOLKIT</p>
+
+ <h2>
+ Skills &amp; <span class="gradient-text">Deliverables.</span>
+ </h2>
+
+ <p class="section-subtitle">
+ The skills I use to design, build and improve websites.
+ </p>
+ </div>
+
+ <div class="skills-grid">
+
+ <article class="skill-card glass reveal" tabindex="0">
+ <div class="skill-top">
+ <span class="skill-icon icon-orange" aria-hidden="true">5</span>
+ <span class="skill-number">01</span>
+ </div>
+ <h3>HTML5</h3>
+ <p>Creating structured, semantic and accessible web pages.</p>
+ <div class="skill-line" aria-hidden="true">
+ <span style="--skill-width:85%"></span>
+ </div>
+ <small>WEB STRUCTURE</small>
+ </article>
+
+ <article class="skill-card glass reveal" tabindex="0">
+ <div class="skill-top">
+ <span class="skill-icon icon-blue" aria-hidden="true">✳</span>
+ <span class="skill-number">02</span>
+ </div>
+ <h3>CSS3</h3>
+ <p>Styling layouts with modern colours, effects and animations.</p>
+ <div class="skill-line" aria-hidden="true">
+ <span style="--skill-width:80%"></span>
+ </div>
+ <small>VISUAL STYLING</small>
+ </article>
+
+ <article class="skill-card glass reveal" tabindex="0">
+ <div class="skill-top">
+ <span class="skill-icon icon-purple" aria-hidden="true">◈</span>
+ <span class="skill-number">03</span>
+ </div>
+ <h3>Responsive UI</h3>
+ <p>Adapting layouts for mobile, tablet and desktop screens.</p>
+ <div class="skill-line" aria-hidden="true">
+ <span style="--skill-width:78%"></span>
+ </div>
+ <small>ALL SCREENS</small>
+ </article>
+
+ <article class="skill-card glass reveal" tabindex="0">
+ <div class="skill-top">
+ <span class="skill-icon icon-green" aria-hidden="true">&lt;/&gt;</span>
+ <span class="skill-number">04</span>
+ </div>
+ <h3>Frontend Development</h3>
+ <p>Building clear, user-friendly interfaces with HTML and CSS.</p>
+ <div class="skill-line" aria-hidden="true">
+ <span style="--skill-width:75%"></span>
+ </div>
+ <small>WEB DEVELOPMENT</small>
+ </article>
+
+ <article class="skill-card glass reveal" tabindex="0">
+ <div class="skill-top">
+ <span class="skill-icon icon-pink" aria-hidden="true">✦</span>
+ <span class="skill-number">05</span>
+ </div>
+ <h3>Website Design</h3>
+ <p>Creating modern layouts with thoughtful typography and spacing.</p>
+ <div class="skill-line" aria-hidden="true">
+ <span style="--skill-width:75%"></span>
+ </div>
+ <small>UI &amp; WEB DESIGN</small>
+ </article>
+
+ <article class="skill-card glass reveal" tabindex="0">
+ <div class="skill-top">
+ <span class="skill-icon icon-cyan" aria-hidden="true">⌘</span>
+ <span class="skill-number">06</span>
+ </div>
+ <h3>Bug Fixing</h3>
+ <p>Finding and fixing common code, styling and layout issues.</p>
+ <div class="skill-line" aria-hidden="true">
+ <span style="--skill-width:70%"></span>
+ </div>
+ <small>PROBLEM SOLVING</small>
+ </article>
+
+ </div>
+
+ <p class="skills-note">
+ Skill indicators are illustrative, not verified test scores.
+ </p>
+ </section>
+
+ <!-- PROJECTS -->
+ <section class="section container" id="projects">
+ <div class="section-heading reveal">
+ <p class="section-kicker">03 — SELECTED WORK</p>
+
+ <h2>
+ Ideas made <span class="gradient-text">visible.</span>
+ </h2>
+
+ <p class="section-subtitle">
+ A showcase of my web development and design work.
+ </p>
+ </div>
+
+ <article class="project-card glass reveal">
+ <div class="project-preview" aria-label="Portfolio project preview">
+ <div class="preview-orb" aria-hidden="true"></div>
+
+ <div class="preview-window">
+ <div class="preview-topbar">
+ <div class="window-dots" aria-hidden="true">
+ <i></i><i></i><i></i>
+ </div>
+ <span>SO / PORTFOLIO</span>
+ <span aria-hidden="true">↗</span>
+ </div>
+
+ <div class="preview-body">
+ <span class="preview-kicker">DIGITAL DESIGN STUDIO</span>
+
+ <h3>
+ Ideas into<br>
+ <span>experiences.</span>
+ </h3>
+
+ <div class="preview-cta">Discover More ↗</div>
+
+ <div class="preview-bottom">
+ <span>HTML &amp; CSS</span>
+ <span>2026</span>
+ </div>
+ </div>
+ </div>
+ </div>
+
+ <div class="project-details">
+ <div class="project-meta">
+ <span class="project-type">PERSONAL PROJECT</span>
+ <span class="project-year">2026</span>
+ </div>
+
+ <h3>Responsive HTML &amp; CSS Portfolio Website</h3>
+
+ <p>
+ Created a responsive portfolio website using HTML and CSS.
+ Built the page structure with headings, paragraphs, images,
+ links and buttons, and added styling for layout, colours,
+ fonts, spacing and borders.
+ </p>
+
+ <div class="project-tags">
+ <span>HTML</span>
+ <span>CSS</span>
+ <span>Responsive Web Design</span>
+ <span>Frontend Development</span>
+ <span>Website Design</span>
+ <span>Bug Fixing</span>
+ </div>
+
+ <div class="project-role">
+ <span class="role-dot" aria-hidden="true"></span>
+ <span>Your role: <strong>Frontend Developer</strong></span>
+ </div>
+
+ <a href="#contact" class="inline-link">
+ Get in touch <span aria-hidden="true">↗</span>
+ </a>
+ </div>
+ </article>
+
+ <p class="project-note">
+ Add your live demo or source-code link when you publish the project.
+ </p>
+ </section>
+
+ <!-- CONTACT -->
+ <section class="contact-section container glass reveal" id="contact">
+ <div class="contact-heading">
+ <p class="section-kicker">04 — GET IN TOUCH</p>
+
+ <h2>
+ Have an idea?<br>
+ <span class="gradient-text">Let's connect.</span>
+ </h2>
+
+ <p>
+ Interested in a project or want to say hello?
+ Reach out using the details below.
+ </p>
+
+ <div class="contact-decoration" aria-hidden="true">✳</div>
+ </div>
+
+ <div class="contact-items">
+ <a class="contact-item glass" href="mailto:babanhazra9749@gmail.com">
+ <span class="contact-icon" aria-hidden="true">✉</span>
+
+ <span class="contact-copy">
+ <small>EMAIL ME</small>
+ <strong>babanhazra9749@gmail.com</strong>
+ </span>
+
+ <span class="contact-arrow" aria-hidden="true">↗</span>
+ </a>
+
+ <a class="contact-item glass" href="tel:+919749661166">
+ <span class="contact-icon" aria-hidden="true">☎</span>
+
+ <span class="contact-copy">
+ <small>CALL ME</small>
+ <strong>+91 97496 61166</strong>
+ </span>
+
+ <span class="contact-arrow" aria-hidden="true">↗</span>
+ </a>
+
+ <a
+ class="contact-item glass"
+ href="https://wa.me/919749661166"
+ target="_blank"
+ rel="noopener noreferrer"
+ >
+ <span class="contact-icon" aria-hidden="true">◉</span>
+
+ <span class="contact-copy">
+ <small>WHATSAPP</small>
+ <strong>Let's chat</strong>
+ </span>
+
+ <span class="contact-arrow" aria-hidden="true">↗</span>
+ </a>
+ </div>
+ </section>
+
+ <!-- SKILL DETAILS POPUP -->
+ <div
+ class="skill-modal"
+ id="skillModal"
+ role="dialog"
+ aria-modal="true"
+ aria-labelledby="skillModalTitle"
+ aria-describedby="skillModalDescription"
+ aria-hidden="true"
+ inert
+ >
+ <button
+ class="skill-modal-backdrop"
+ type="button"
+ data-close-skill
+ aria-label="Close skill details"
+ tabindex="-1"
+ ></button>
+
+ <div class="skill-modal-content glass">
+ <button
+ class="skill-modal-close"
+ id="skillModalClose"
+ type="button"
+ aria-label="Close popup"
+ >✕</button>
+
+ <span class="skill-modal-label">MY TOOLKIT</span>
+
+ <h2 id="skillModalTitle">HTML5</h2>
+
+ <p id="skillModalDescription"></p>
+
+ <h3>What this includes</h3>
+
+ <ul id="skillModalList"></ul>
+
+ <button
+ class="button button-primary skill-modal-done"
+ id="skillModalDone"
+ type="button"
+ >Got it ✓</button>
+ </div>
+ </div>
+
+ </main>
+
+ <!-- FOOTER -->
+ <footer class="footer container">
+ <a href="#home" class="logo" aria-label="Back to home">
+ S<span>H</span><i>.</i>
+ </a>
+
+ <p>Designed with creativity by <strong>Souvik Hazra</strong>.</p>
+
+ <a href="#home" class="back-top">BACK TO TOP ↑</a>
+
+ <div class="footer-bottom">
+ <span>
+ © <span id="year"></span> Souvik Hazra. All rights reserved.
+ </span>
+ <span>MADE WITH HTML &amp; CSS</span>
+ </div>
+ </footer>
+
+ <script>
+ "use strict";
+
+ document.addEventListener("DOMContentLoaded", () => {
+ const reducedMotion = window.matchMedia(
+ "(prefers-reduced-motion: reduce)"
+ );
+
+ // MOBILE NAVIGATION
+ const menuToggle = document.getElementById("menuToggle");
+ const navigation = document.getElementById("navigation");
+
+ function closeNavigation() {
+ if (!menuToggle || !navigation) return;
+
+ navigation.classList.remove("show");
+ menuToggle.setAttribute("aria-expanded", "false");
+ menuToggle.setAttribute("aria-label", "Open navigation");
+ menuToggle.textContent = "☰";
+ }
+
+ function openNavigation() {
+ if (!menuToggle || !navigation) return;
+
+ navigation.classList.add("show");
+ menuToggle.setAttribute("aria-expanded", "true");
+ menuToggle.setAttribute("aria-label", "Close navigation");
+ menuToggle.textContent = "✕";
+ }
+
+ if (menuToggle && navigation) {
+ // Show the toggle button when JavaScript is available.
+ menuToggle.hidden = false;
+
+ menuToggle.addEventListener("click", () => {
+ const isOpen =
+ menuToggle.getAttribute("aria-expanded") === "true";
+
+ if (isOpen) {
+ closeNavigation();
+ } else {
+ openNavigation();
+ }
+ });
+
+ navigation.querySelectorAll("a").forEach(link => {
+ link.addEventListener("click", closeNavigation);
+ });
+
+ // Close the mobile menu when clicking outside it.
+ document.addEventListener("click", event => {
+ const isOpen =
+ menuToggle.getAttribute("aria-expanded") === "true";
+
+ if (
+ isOpen &&
+ !navigation.contains(event.target) &&
+ !menuToggle.contains(event.target)
+ ) {
+ closeNavigation();
+ }
+ });
+
+ // Reset mobile navigation when returning to desktop width.
+ const desktopQuery = window.matchMedia("(min-width: 701px)");
+
+ const handleDesktopChange = event => {
+ if (event.matches) closeNavigation();
+ };
+
+ if (desktopQuery.addEventListener) {
+ desktopQuery.addEventListener("change", handleDesktopChange);
+ } else {
+ desktopQuery.addListener(handleDesktopChange);
+ }
+ }
+
+ // SCROLL PROGRESS
+ const progressBar = document.getElementById("scrollProgress");
+ let scrollTicking = false;
+
+ function updateScrollProgress() {
+ if (!progressBar) return;
+
+ const root = document.documentElement;
+ const maxScroll = root.scrollHeight - window.innerHeight;
+
+ const progress = maxScroll > 0
+ ? (window.scrollY / maxScroll) * 100
+: 0;
+
+ progressBar.style.width =
+ Math.min(100, Math.max(0, progress)) + "%";
+
+ scrollTicking = false;
+ }
+
+ window.addEventListener("scroll", () => {
+ if (!scrollTicking) {
+ window.requestAnimationFrame(updateScrollProgress);
+ scrollTicking = true;
+ }
+ }, { passive: true });
+
+ window.addEventListener("resize", updateScrollProgress, {
+ passive: true
+ });
+
+ updateScrollProgress();
+
+ // SCROLL REVEAL
+ const revealElements = document.querySelectorAll(".reveal");
+
+ if (
+ "IntersectionObserver" in window &&
+ !reducedMotion.matches
+ ) {
+ revealElements.forEach(element => {
+ element.classList.add("will-reveal");
+ });
+
+ const observer = new IntersectionObserver(entries => {
+ entries.forEach(entry => {
+ if (entry.isIntersecting) {
+ entry.target.classList.add("visible");
+ observer.unobserve(entry.target);
+ }
+ });
+ }, {
+ threshold: 0.12
+ });
+
+ revealElements.forEach(element => observer.observe(element));
+ } else {
+ revealElements.forEach(element => {
+ element.classList.add("visible");
+ });
+ }
+
+ // TYPING ANIMATION
+ const typedRole = document.getElementById("typedRole");
+
+ const roles = [
+ "Frontend Developer",
+ "Web Designer",
+ "Creative Learner"
+ ];
+
+ let typingTimer = null;
+ let roleIndex = 0;
+ let charIndex = roles[0].length;
+ let deleting = false;
+
+ function typeRole() {
+ if (!typedRole || reducedMotion.matches) return;
+
+ const currentRole = roles[roleIndex];
+
+ if (!deleting) {
+ charIndex++;
+ typedRole.textContent = currentRole.slice(0, charIndex);
+
+ if (charIndex >= currentRole.length) {
+ deleting = true;
+ typingTimer = window.setTimeout(typeRole, 1500);
+ return;
+ }
+ } else {
+ charIndex--;
+ typedRole.textContent = currentRole.slice(0, charIndex);
+
+ if (charIndex <= 0) {
+ deleting = false;
+ roleIndex = (roleIndex + 1) % roles.length;
+ }
+ }
+
+ typingTimer = window.setTimeout(
+ typeRole,
+ deleting ? 42: 78
+ );
+ }
+
+ if (typedRole && !reducedMotion.matches) {
+ typingTimer = window.setTimeout(() => {
+ deleting = true;
+ typeRole();
+ }, 1800);
+ }
+
+ // Stop typing if the visitor prefers reduced motion.
+ const handleMotionChange = event => {
+ if (event.matches && typingTimer !== null) {
+ window.clearTimeout(typingTimer);
+ typingTimer = null;
+ }
+ };
+
+ if (reducedMotion.addEventListener) {
+ reducedMotion.addEventListener("change", handleMotionChange);
+ } else {
+ reducedMotion.addListener(handleMotionChange);
+ }
+
+ // SKILL POPUP CONTENT
+ const skillDetails = {
+ "HTML5": {
+ description:
+ "HTML5 helps create structured and accessible web pages.",
+ items: [
+ "Semantic HTML elements",
+ "Headings, links, images and lists",
+ "Forms and page structure"
+ ]
+ },
+
+ "CSS3": {
+ description:
+ "CSS3 styles layouts, colours, animations and visual effects.",
+ items: [
+ "Flexbox and CSS Grid",
+ "Gradients and glass effects",
+ "Transitions and animations"
+ ]
+ },
+
+ "Responsive UI": {
+ description:
+ "Responsive UI helps websites adapt to different screen sizes.",
+ items: [
+ "Mobile-friendly layouts",
+ "Tablet and desktop breakpoints",
+ "Flexible images and containers"
+ ]
+ },
+
+ "Frontend Development": {
+ description:
+ "Frontend development builds the interface visitors see and use.",
+ items: [
+ "Creating page sections with HTML",
+ "Styling interfaces with CSS",
+ "Testing pages in the browser"
+ ]
+ },
+
+ "Website Design": {
+ description:
+ "Website design combines layout, typography and spacing into a clear experience.",
+ items: [
+ "Consistent spacing and alignment",
+ "Readable typography",
+ "Modern visual styling"
+ ]
+ },
+
+ "Bug Fixing": {
+ description:
+ "Bug fixing helps identify and correct common coding and layout problems.",
+ items: [
+ "Checking HTML and CSS issues",
+ "Fixing spacing and layout problems",
+ "Testing responsive behaviour"
+ ]
+ }
+ };
+
+ const skillModal = document.getElementById("skillModal");
+ const skillModalTitle = document.getElementById("skillModalTitle");
+ const skillModalDescription =
+ document.getElementById("skillModalDescription");
+ const skillModalList = document.getElementById("skillModalList");
+ const skillModalClose = document.getElementById("skillModalClose");
+ const skillModalDone = document.getElementById("skillModalDone");
+
+ let lastFocusedSkill = null;
+
+ function openSkillModal(card) {
+ if (
+ !skillModal ||
+ !skillModalTitle ||
+ !skillModalDescription ||
+ !skillModalList
+ ) {
+ return;
+ }
+
+ const heading = card.querySelector("h3");
+ if (!heading) return;
+
+ const name = heading.textContent.trim();
+ const details = skillDetails[name];
+
+ if (!details) return;
+
+ lastFocusedSkill = card;
+
+ skillModalTitle.textContent = name;
+ skillModalDescription.textContent = details.description;
+
+ skillModalList.replaceChildren();
+
+ details.items.forEach(item => {
+ const listItem = document.createElement("li");
+ listItem.textContent = item;
+ skillModalList.appendChild(listItem);
+ });
+
+ skillModal.inert = false;
+ skillModal.classList.add("is-open");
+ skillModal.setAttribute("aria-hidden", "false");
+ document.body.classList.add("skill-modal-open");
+
+ if (skillModalClose) {
+ skillModalClose.focus();
+ }
+ }
+
+ function closeSkillModal() {
+ if (
+ !skillModal ||
+ !skillModal.classList.contains("is-open")
+ ) {
+ return;
+ }
+
+ skillModal.classList.remove("is-open");
+ skillModal.setAttribute("aria-hidden", "true");
+ skillModal.inert = true;
+ document.body.classList.remove("skill-modal-open");
+
+ if (lastFocusedSkill && lastFocusedSkill.isConnected) {
+ lastFocusedSkill.focus();
+ }
+
+ lastFocusedSkill = null;
+ }
+
+ document.querySelectorAll(".skill-card").forEach(card => {
+ const heading = card.querySelector("h3");
+ if (!heading) return;
+
+ const skillName = heading.textContent.trim();
+
+ card.setAttribute("role", "button");
+ card.setAttribute("aria-haspopup", "dialog");
+ card.setAttribute(
+ "aria-label",
+ "View details about " + skillName
+ );
+
+ card.addEventListener("click", () => {
+ openSkillModal(card);
+ });
+
+ card.addEventListener("keydown", event => {
+ if (event.target !== card) return;
+
+ if (event.key === "Enter" || event.key === " ") {
+ event.preventDefault();
+ openSkillModal(card);
+ }
+ });
+ });
+
+ if (skillModalClose) {
+ skillModalClose.addEventListener("click", closeSkillModal);
+ }
+
+ if (skillModalDone) {
+ skillModalDone.addEventListener("click", closeSkillModal);
+ }
+
+ if (skillModal) {
+ skillModal.querySelectorAll("[data-close-skill]").forEach(
+ element => {
+ element.addEventListener("click", closeSkillModal);
+ }
+ );
+ }
+
+ // Keep keyboard focus inside the popup while it is open.
+ if (skillModal) {
+ skillModal.addEventListener("keydown", event => {
+ if (event.key !== "Tab") return;
+
+ const focusableElements = Array.from(
+ skillModal.querySelectorAll(
+ 'button:not([disabled]), a[href], [tabindex]:not([tabindex="-1"])'
+ )
+ ).filter(element => {
+ return element.getClientRects().length > 0;
+ });
+
+ if (focusableElements.length === 0) return;
+
+ const firstElement = focusableElements[0];
+ const lastElement =
+ focusableElements[focusableElements.length - 1];
+
+ if (
+ event.shiftKey &&
+ document.activeElement === firstElement
+ ) {
+ event.preventDefault();
+ lastElement.focus();
+ } else if (
+ !event.shiftKey &&
+ document.activeElement === lastElement
+ ) {
+ event.preventDefault();
+ firstElement.focus();
+ }
+ });
+ }
+
+ // Escape closes the popup or the mobile menu.
+ document.addEventListener("keydown", event => {
+ if (event.key !== "Escape") return;
+
+ if (
+ skillModal &&
+ skillModal.classList.contains("is-open")
+ ) {
+ closeSkillModal();
+ } else {
+ closeNavigation();
+ }
+ });
+
+ // AUTOMATIC COPYRIGHT YEAR
+ const yearElement = document.getElementById("year");
+
+ if (yearElement) {
+ yearElement.textContent = new Date().getFullYear();
+ }
+ });
+ </script>
+</body>
+</html>
